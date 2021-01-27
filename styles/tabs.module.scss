@@ -1,0 +1,18 @@
+.Tabs {
+    width: 600px;
+    height: 100px;
+    background-color: rgba(201, 201, 201, 1);
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__item {
+        color: black;
+        cursor: pointer;
+
+        &:hover {
+            color: red;
+        }
+    }
+}
